@@ -1,0 +1,197 @@
+
+
+
+.SW_logo{
+  margin-top: 8px;
+  width: 48px !important;
+  height: 48px !important;
+}
+.SW-center{
+  display: flex;
+  justify-content:center;
+}
+
+#SW_indexcontact{
+  color:#FFFFFF;
+}
+.SW_img{
+  padding-top: 98px;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #fff;
+  position: relative !important;
+}
+
+.button-collapse{
+  margin-left:10px;
+  color: #f57c00 !important;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+.side-nav a{
+  color: #FFFFFF !important;
+}
+
+.parallax-container {
+  min-height: 500px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.brazil{
+  width: auto;
+  height: auto;
+  padding:200px 0 200px; 
+  background-image:url(../images/brazil-flag.jpg); 
+  background-repeat:no-repeat; 
+  background-position:center; 
+  background-attachment:fixed; 
+  -webkit-background-size:cover; 
+  background-size:cover;
+}
+
+.cuba{
+  padding:200px 0 200px; 
+  background-image:url(../images/cuba-flag.jpg); 
+  background-repeat:no-repeat; 
+  background-position:center; 
+  background-attachment:fixed; 
+  -webkit-background-size:cover; 
+  background-size:cover;
+}
+
+.mexico{
+  padding:200px 0 200px; 
+  background-image:url(../images/mexico-flag.jpg); 
+  background-repeat:no-repeat; 
+  background-position:center; 
+  background-attachment:fixed; 
+  -webkit-background-size:cover; 
+  background-size:cover;
+}
+
+.SW_contact_us{
+  margin-top: -20px;
+}
+
+.SW_footer_menu a{
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 0 .4em 0 .8em;
+}
+
+.SW_footer_menu a:hover{
+    color: #FFA500;
+    text-decoration: none;
+  }
+
+.SW_footer_menu span.SW_break{
+  color: #FFFFFF;
+  padding: 0 .2rem 0 .4rem;
+}
+
+
+.SW_media a{
+  color: #FFFFFF !important;
+}
+
+.SW_media{
+  display: inline-block;
+  padding: 0 .4em 0 .8em;
+}
+
+.suitcase-mar{
+  margin-right: 10px;
+}
+
+#strengthandwellness{
+  width:100%; 
+  height:270px;
+}
+
+/* Fancy heading */
+
+
+.fancy_heading .fancy_heading_wrapper { 
+  padding: 40px 20px; 
+  margin-bottom: 10px; 
+  border-bottom-width: 1px; 
+  border-style: solid; 
+  position: relative; 
+  background-position: top center; 
+  background-repeat: no-repeat; 
+}
+
+.fancy_heading .fancy_heading_wrapper.no_icon { 
+  border-bottom: 0; 
+  padding: 40px 0 0px; 
+  margin-bottom: 0; 
+}
+
+.fancy_heading .inside { 
+  font-size: 17px; 
+  line-height: 21px; 
+}
+
+.fancy_heading i { 
+  display: block; 
+  width: 50px; 
+  height: 50px; 
+  line-height: 35px; 
+  text-align: center; 
+  border-width: 5px; 
+  border-style: solid; 
+  position: relative; 
+  left: 50%; 
+  margin-left: -17px; 
+  bottom: -17px; 
+  -webkit-border-radius: 50%; 
+  border-radius: 50%;
+}
+
+  .fancy_heading .inside {
+    color: #a0a2ab;
+  }
+  .fancy_heading i {
+    background: #FFFFFF;
+    color: #FFA500;
+  }
