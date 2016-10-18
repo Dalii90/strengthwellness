@@ -29,6 +29,7 @@
 <link href="../css/materialize.min.css" type="text/css" rel="stylesheet"/>
 <link href="../css/font-awesome.min.css" type="text/css" rel="stylesheet"/>
 <link href="../css/style.css" type="text/css" rel="stylesheet"/>
+
 </head>
 
 <body>
@@ -41,9 +42,9 @@
         <li><a id="logo-container" href="../views/index.html" class="brand-logo active"><img src="../images/Logo_favicon.png" class="SW_logo" alt="S&amp;W"></a></li>
         <li><a href="../views/personal_training.html">Träning & Hälsa</a></li>
         <li><a href="../views/travel.html">Resor</a></li>
-        <li><a href="../views/events.html">Events</a></li>
-        <li><a href="../views/sustainability.html">Hållbarhetsprojekt</a></li>
-        <li><a href="http://blog.strengthandwellness.me/sv_SE/">Blogg</a></li>
+        <li class="hide"><a href="../views/events.html">Events</a></li>
+        <li class="hide"><a href="../views/sustainability.html">Hållbarhetsprojekt</a></li>
+        <li class="hide"><a href="http://blog.strengthandwellness.me/sv_SE/">Blogg</a></li>
         <li><a href="../views/about.html">Om Oss</a></li>
         <li><a href="../views/contact.html">Kontakta Oss</a></li>
       </ul>
@@ -52,9 +53,9 @@
         <li class="active"><a href="../views/index.html">Hem</a></li>
         <li><a href="../views/personal_training.html">Träning & Hälsa</a></li>
         <li><a href="../views/travel.html">Resor</a></li>
-        <li><a href="../views/events.html">Events</a></li>
-        <li><a href="../views/sustainability.html">Hållbarhetsprojekt</a></li>
-        <li><a href="http://blog.strengthandwellness.me/sv_SE/">Blogg</a></li>
+        <li class="hide"><a href="../views/events.html">Events</a></li>
+        <li class="hide"><a href="../views/sustainability.html">Hållbarhetsprojekt</a></li>
+        <li class="hide"><a href="http://blog.strengthandwellness.me/sv_SE/">Blogg</a></li>
         <li><a href="../views/about.html">Om Oss</a></li>
         <li><a href="../views/contact.html">Kontakta Oss</a></li>
       </ul>
@@ -69,21 +70,24 @@
 
   <!-- CAROUSEL -->
 
-    <div class="row">
+<div class="section">
+  <div class="row">
 
- <div class="carousel carousel-slider center" data-indicators="true">
-    <div class="carousel-fixed-item center">
-      <a class="btn waves-effect white grey-text darken-text-2">Till Erbjudande</a>
-    </div>
-    <div class="carousel-item" href="#one!">
-      <img src="../images/cubacar.jpg">
-    </div>
-    <div class="carousel-item" href="#two!">
-      <img src="../images/cubacar.jpg">
-    </div>
-    <div class="carousel-item" href="#three!">
-      <img src="../images/cubacar.jpg" >
-    </div>
+     <div class="carousel carousel-slider center" data-indicators="true">
+        <div class="carousel-fixed-item center">
+          <a href="../views/cuba.html" class="btn waves-effect white grey-text darken-text-2">Till Erbjudande</a>
+        </div>
+        <div class="carousel-item SW_carousel" href="#one!">
+          <img src="../images/sunset_heart.jpg">
+        </div>
+        <div class="carousel-item SW_carousel" href="#two!">
+          <img src="../images/cubacar.jpg">
+        </div>
+        <div class="carousel-item SW_carousel" href="#three!">
+          <img src="../images/cubacar.jpg">
+        </div>
+      </div>
+
   </div>
 </div>
 
@@ -97,14 +101,13 @@
         <div class="row">
         <div class="col s12 m3 m9-pull">
           <div class="icon-block">
-            <img class="scale-with-grid" style="width: 120%; height: 120%;" src="../images/Logo_favicon.png" alt="Strength&amp;Wellness"/>
+            <img class="responsive-img" src="../images/Logo_favicon.png" alt="Strength&amp;Wellness"/>
           </div>
         </div>
         <div class="col s12 m9 m3-push">
           <h1 style="padding-top: 30px;">Välkommen till <br> Strength &amp; Wellness</h1>
         </div>
         </div>
-
       </div>
     </div>
   </div>
@@ -184,6 +187,7 @@
           <p><em>
             Brasilienresorna avgår två gånger per år: mars och oktober. Varje resa tar två veckor. Ytterligare veckor går att ordna, bara hör av dig till oss vid intresse.
           </em></p>
+          <a href="../views/brazil.html" class="waves-effect waves-light btn orange darken-2 z-depth-2">TIll Brasilien!</a>
         </div>
         <div class="col s12 l6">
           <img class="responsive-img SW_img" src="../images/rio.jpg" alt="Rio De Janeiro">
@@ -231,6 +235,7 @@
           <p>
             Transportera dig bakåt i tiden till en plats där 50-talsbilar trafikerar soliga gator, internet knappt existerar och salsarytmerna flödar. Vi ger dig Kuba – en unik plats på jorden! Turismen står nu inför en explosionsartad ökning så landet kommer snabbt att börja förändras. Under resan ser vi den legendariska huvudstaden Havanna, det historiska tobaksproducerande området Viñales och sockerrörsproduktionens centrum Trinidad. Vi är stolta att vara banbrytande inom att erbjuda träningsresor dit så häng med oss - det är nu som Kuba skall upplevas!
           </p>
+          <a href="../views/cuba.html" class="waves-effect waves-light btn orange darken-2 z-depth-2">TIll Kuba!</a>
         </div>
         <div class="col s12 l6">
           <img class="responsive-img SW_img" src="../images/cubacar.jpg" alt="cubacar">
@@ -277,6 +282,7 @@
           <p>
             Från de hippaste crossfit-centren till en lång tradition av boxning; från trendiga Mexico city till mångtusenåriga ursprungskulturer såsom aztek och maya; från ständigt skiftande stadslandskap till en av världens rikaste biologiska mångfald och långa sandstränder med klarblått havsvatten. Då har vi inte ens nämnt att landet är en av världens främsta kulinariska hot spots… Välkomna att upptäcka det bästa Mexiko har att erbjuda, landet som ständigt fortsätter att hänföra! Bli inte förvånad om dina första två veckor här bara blir början på en lång förälskelse. 
           </p>
+          <a href="../views/mexico.html" class="waves-effect waves-light btn orange darken-2 z-depth-2">TIll Mexiko!</a>
         </div>
         <div class="col s12 l6">
           <img class="responsive-img SW_img" src="../images/river.jpeg" alt="river">
@@ -308,9 +314,9 @@
                 <a href="../views/index.html">Hem</a><span class="SW_break">|</span>
                 <a href="../views/personal_training.html">Träning & Hälsa</a><span class="SW_break">|</span>
                 <a href="../views/travel.html">Resor</a><span class="SW_break">|</span>
-                <a href="../views/events.html">Events</a><span class="SW_break">|</span>
-                <a href="../views/sustainability.html">Hållbarhetsprojekt</a><span class="SW_break">|</span>
-                <a href="http://blog.strengthandwellness.me/sv_SE/">Blogg</a><span class="SW_break">|</span>
+                <a class="hide" href="../views/events.html">Events</a><!--<span class="SW_break">|</span>
+                <a class="hide" href="../views/sustainability.html">Hållbarhetsprojekt</a><span class="SW_break">|</span>
+                <a class="hide" href="http://blog.strengthandwellness.me/sv_SE/">Blogg</a><span class="SW_break">|</span> -->
                 <a href="../views/about.html">Om Oss</a><span class="SW_break">|</span>
                 <a href="../views/contact.html">Kontakta Oss</a>
               </li>
@@ -318,9 +324,6 @@
               <ul>
                 <li class="SW_media">
                   <a href="https://www.facebook.com/strengthandwellness.me" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a>
-                </li>
-                <li class="SW_media">
-                  <a href="https://twitter.com/search?q=strengthwellness" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
                 </li>
                 <li class="SW_media">
                   <a href="https://www.instagram.com/strengthwellness" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>

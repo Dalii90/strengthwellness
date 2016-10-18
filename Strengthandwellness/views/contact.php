@@ -3,7 +3,7 @@
 	/* ==========================  Define variables ========================== */
 
 	#Your e-mail address
-	define("__TO__", "info@strengthandwellness.se");
+	define("__TO__", "daliisrb@gmail.com");
 
 	#Message subject
 	define("__SUBJECT__", "");
