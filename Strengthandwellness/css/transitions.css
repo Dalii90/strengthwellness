@@ -6,9 +6,9 @@ A library of transitions for revealing the loaded images
 */
 
 .effect-parent {
-    -webkit-perspective: 1300px;
-    -moz-perspective: 1300px;
-    perspective: 1300px;
+    -webkit-perspective: 500px;
+    -moz-perspective: 500px;
+    perspective: 500px;
     }
 
 
