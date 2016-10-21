@@ -4,6 +4,10 @@
   margin-left: auto;
 }
 
+.card.small{
+  height:350px;
+}
+
 
 .SW_logo{
   margin-top: 8px;
